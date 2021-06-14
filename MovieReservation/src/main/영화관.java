@@ -2,10 +2,8 @@ package main;
 
 import java.util.Scanner;
 
-public static
-
 public class 영화관 implements 키오스크 {
-	
+	Scanner sc =new Scanner(System.in);
 	int 금액;
 	String 아이디;
 	String 비밀번호;
