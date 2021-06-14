@@ -2,8 +2,6 @@ package main;
 
 import java.util.Scanner;
 
-
-
 public class 메가박스 extends 영화관 {
 	Scanner sc = new Scanner(System.in);
 	int 고유번호 = 01;
@@ -37,7 +35,6 @@ public class 메가박스 extends 영화관 {
 
 	@Override
 	public void 예매() {
-		
 
 	}
 
@@ -53,7 +50,7 @@ public class 메가박스 extends 영화관 {
 
 	@Override
 	public void 종료() {
-		
+
 		super.종료();
 	}
 

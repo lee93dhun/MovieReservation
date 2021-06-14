@@ -1,8 +1,9 @@
 package main;
 
-public class 롯데시네마 extends 영화관{
+public class 롯데시네마 extends 영화관 {
 	int 고유번호 = 03;
 	int 금액;
+
 	@Override
 	public void 메뉴() {
 		while (true) {
@@ -24,27 +25,28 @@ public class 롯데시네마 extends 영화관{
 			}
 		}
 	}
+
 	@Override
 	public void 예매() {
-		
+
 		super.예매();
 	}
+
 	@Override
 	public void 로그인() {
-		
+
 		super.로그인();
 	}
+
 	@Override
 	public void 회원가입() {
-		
+
 		super.회원가입();
 	}
+
 	@Override
 	public void 종료() {
 		super.종료();
 	}
-	
-	
-	
-	
+
 }
