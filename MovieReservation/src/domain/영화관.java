@@ -2,9 +2,8 @@ package domain;
 
 import java.util.Scanner;
 
-public static
-
-public class 영화관 implements 키오스크 {
+public class 영화관 implements 키오스크{
+	Scanner sc =new Scanner(System.in);
 	
 	int 금액;
 	String 아이디;
@@ -42,13 +41,14 @@ public class 영화관 implements 키오스크 {
 	@Override
 	public void 로그인() {
 		System.out.println("로그인 진행");
+	
+		
 
 	}
 
 	@Override
 	public void 회원가입() {
 		System.out.println("회원가입 진행");
-
 	}
 
 	@Override
