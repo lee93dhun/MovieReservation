@@ -2,7 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-import com.sun.java.swing.action.NextAction;
+
 
 public class 메가박스 extends 영화관 {
 	Scanner sc = new Scanner(System.in);
@@ -37,6 +37,7 @@ public class 메가박스 extends 영화관 {
 
 	@Override
 	public void 예매() {
+		
 
 	}
 
