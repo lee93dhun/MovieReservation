@@ -1,10 +1,10 @@
 package main;
 
-import java.util.Scanner;
+
 
 public class 메가박스 extends 영화관 {
-	Scanner sc = new Scanner(System.in);
 	
+
 	int 고유번호 = 01;
 	int 금액;
 
@@ -16,7 +16,7 @@ public class 메가박스 extends 영화관 {
 		while (true) {
 			System.out.println("메가박스 메뉴");
 			System.out.println("1.로그인 2.회원가입 3. 예매 4. 종료");
-			int 선택 = sc.nextInt();
+			int 선택 = 영화관.sc.nextInt();
 			if (선택 == 1) {
 				로그인();
 			}
