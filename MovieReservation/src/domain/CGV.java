@@ -20,7 +20,7 @@ public class CGV extends 영화관 {
 				회원가입();
 			}
 			if (선택 == 3) {
-				예매();
+				비회원예매();
 			}
 			if (선택 == 4) {
 				종료();
@@ -31,9 +31,9 @@ public class CGV extends 영화관 {
 	}
 
 	@Override
-	public void 예매() {
+	public void 비회원예매() {
 		
-		super.예매();
+		super.비회원예매();
 	}
 
 	@Override

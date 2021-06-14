@@ -11,13 +11,13 @@ public class 롯데시네마 extends 영화관 {
 			System.out.println("1.로그인 2.회원가입 3. 예매 4. 종료");
 			int 선택 = sc.nextInt();
 			if (선택 == 1) {
-				로그인();
+				
 			}
 			if (선택 == 2) {
 				회원가입();
 			}
 			if (선택 == 3) {
-				예매();
+				비회원예매();
 			}
 			
 			if (선택 == 4) {
@@ -28,9 +28,8 @@ public class 롯데시네마 extends 영화관 {
 	}
 
 	@Override
-	public void 예매() {
-
-		super.예매();
+	public void 비회원예매() {
+		super.비회원예매();
 	}
 
 	@Override

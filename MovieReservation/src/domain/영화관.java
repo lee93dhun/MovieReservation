@@ -12,7 +12,7 @@ public class 영화관 implements 키오스크{
 
 	@Override
 	public void 메뉴() {
-		System.out.println("영화관 선택");
+		System.out.println("========영화관 선택========");
 		System.out.println("1.메가박스 2.CGV 3.롯데시네마");
 		int 선택 = sc.nextInt();
 		if (선택 == 1) {
@@ -33,7 +33,7 @@ public class 영화관 implements 키오스크{
 	}
 
 	@Override
-	public void 예매() {
+	public void 비회원예매() {
 		System.out.println("예매 진행");
 
 	}
