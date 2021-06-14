@@ -11,22 +11,13 @@ public class 영화회원 implements 키오스크 {
 	private String password;
 	private String name;
 	private String email;
-<<<<<<< HEAD
 	private int 고유번호; 
 		
-	
-=======
-	private int 고유번호;
->>>>>>> branch 'master' of https://github.com/lee93dhun/MovieReservation
 	
 	
 	public 영화회원() { }
 
-<<<<<<< HEAD
-	public 영화회원(String id, String password, String name, String email , int 고유번호) {
-=======
 	public 영화회원(String id, String password, String name, String email, int 고유번호) {
->>>>>>> branch 'master' of https://github.com/lee93dhun/MovieReservation
 		super();
 		this.id = id;
 		this.password = password;
@@ -73,7 +64,6 @@ public class 영화회원 implements 키오스크 {
 				}
 			}
 		
-<<<<<<< HEAD
 		
 			System.out.println("Password를 입력하세요 : "); String password	 = 영화예매.scanner.next();
 			System.out.println("이름을 입력하세요 : "); String name	 = 영화예매.scanner.next();
@@ -84,10 +74,6 @@ public class 영화회원 implements 키오스크 {
 			System.out.println("-------> 회원가입 성공");
 			return;
 		}
-=======
-		영화회원 temp = new 영화회원(id, password, name, email,고유번호);
-		영화회원목록.영화회원목록.add(temp);
->>>>>>> branch 'master' of https://github.com/lee93dhun/MovieReservation
 	}
 
 	public String getId() {
