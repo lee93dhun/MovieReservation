@@ -1,4 +1,4 @@
-package main;
+package domain;
 
 public interface 키오스크 {
 
