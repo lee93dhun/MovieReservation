@@ -10,6 +10,7 @@ public class 영화관 implements 키오스크{
 	String 이름;
 	
 	
+	
 	@Override
 	public void 메뉴() {
 		System.out.println("영화관 선택");

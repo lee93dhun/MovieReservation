@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class 메가박스 extends 영화관 {
 	Scanner sc = new Scanner(System.in);
+	
 	int 고유번호 = 01;
 	int 금액;
 

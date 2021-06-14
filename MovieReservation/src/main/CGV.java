@@ -4,6 +4,7 @@ public class CGV extends 영화관 {
 	int 고유번호 = 02;
 	int 금액;
 
+	
 	public CGV() {
 	}
 

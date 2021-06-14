@@ -19,6 +19,7 @@ public class 롯데시네마 extends 영화관 {
 			if (선택 == 3) {
 				예매();
 			}
+			
 			if (선택 == 4) {
 				종료();
 				break;
