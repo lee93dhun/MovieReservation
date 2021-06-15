@@ -1,6 +1,5 @@
 package domain;
 
-import controller.예매프로그램;
 
 public class CGV extends 극장 {
 	int 고유번호 = 02;
