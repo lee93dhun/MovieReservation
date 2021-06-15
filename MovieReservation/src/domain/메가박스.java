@@ -1,60 +1,7 @@
 package domain;
 
 
-public class ë©”ê°€ë°•ìŠ¤ extends ê·¹ì¥ {
+public class ¸Ş°¡¹Ú½º extends ¿µÈ­ {
 
-	int ê³ ìœ ë²ˆí˜¸ = 01;
-	int ê¸ˆì•¡;
-	íšŒì› íšŒì› = new íšŒì›();
-	
-	public ë©”ê°€ë°•ìŠ¤() { }
-	public ë©”ê°€ë°•ìŠ¤(String id, String password, String name) {
-	}
-
-	@Override
-	public void ë©”ë‰´() {
-		super.ë©”ë‰´();
-	}
-
-	@Override
-	public void ë¹„íšŒì›ì˜ˆë§¤() {
-			
-		}
-
-	@Override
-<<<<<<< HEAD
-	public void ·Î±×ÀÎ() {
-		System.out.println("===========¸Ş°¡¹Ú½º ·Î±×ÀÎ===========");
-		È¸¿ø.·Î±×ÀÎ();
-		
-	}
-
-	@Override
-	public void È¸¿ø°¡ÀÔ() {
-		System.out.println("==========¸Ş°¡¹Ú½º È¸¿ø°¡ÀÔ==========");
-		È¸¿ø.È¸¿ø°¡ÀÔ();
-	}
- 
-	
-=======
-	public void ë¡œê·¸ì¸() {
-		System.out.println("===========ë©”ê°€ë°•ìŠ¤ ë¡œê·¸ì¸===========");
-		íšŒì›.ë¡œê·¸ì¸();
-		
-	}
-
->>>>>>> refs/remotes/origin/master
-	@Override
-	public void íšŒì›ê°€ì…() {
-		System.out.println("==========ë©”ê°€ë°•ìŠ¤ íšŒì›ê°€ì…==========");
-		íšŒì›.íšŒì›ê°€ì…();
-	}
- 
-	
-	@Override
-	public void ì¢…ë£Œ() {
-
-		super.ì¢…ë£Œ();
-	}
 
 }

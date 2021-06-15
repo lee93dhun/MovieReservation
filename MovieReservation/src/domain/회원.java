@@ -1,12 +1,8 @@
 package domain;
 
-<<<<<<< HEAD
 import controller.�������α׷�;
-=======
-import controller.예매프로그램;
->>>>>>> refs/remotes/origin/master
 
-public class 회원 implements 키오스크 {
+public class ȸ�� implements Ű����ũ {
 	
 	
 	
@@ -18,10 +14,10 @@ public class 회원 implements 키오스크 {
 	
 		
 	
-	// 빈 생성자
-	public 회원() { }
-	// 모든 필드 생성자
-	public 회원(String id, String password, String name) {
+	// �� ������
+	public ȸ��() { }
+	// ��� �ʵ� ������
+	public ȸ��(String id, String password, String name) {
 		super();
 		this.id = id;
 		this.password = password;
@@ -29,12 +25,11 @@ public class 회원 implements 키오스크 {
 	}
 	
 	@Override
-	public void 메뉴() {
+	public void �޴�() {
 	}
 
 
 	@Override
-<<<<<<< HEAD
 	public void �α���() {
 		System.out.println("ID�� �Է��ϼ��� : ");String id	 = �������α׷�.scanner.next();
 		System.out.println("Password�� �Է��ϼ��� : "); String password	 = �������α׷�.scanner.next();
@@ -43,46 +38,13 @@ public class 회원 implements 키오스크 {
 					System.out.println("�α��� ���� ---------------->");
 				}
 				else { System.out.println("�Է��Ͻ� ������ ��ġ���� �ʽ��ϴ�.");
-=======
-	public void 로그인() {
-		System.out.println("ID를 입력하세요 : ");String id	 = 예매프로그램.scanner.next();
-		System.out.println("Password를 입력하세요 : "); String password	 = 예매프로그램.scanner.next();
-			for( int i = 0; i<list.영화회원목록.size(); i++ ) {
-				if( list.영화회원목록.get(i).equals(id) && list.영화회원목록.get(i).equals(password) ) {
-					System.out.println("로그인 성공 ---------------->");
-				}
-				else { System.out.println("입력하신 정보가 일치하지 않습니다.");
->>>>>>> refs/remotes/origin/master
 				}
 			}
 		
 	}
 
 	@Override
-	public void 회원가입() {
-		int 스위치 =0 ;
-		System.out.println("ID를 입력하세요 : ");String id	 = 예매프로그램.scanner.next();
-	while( true ) {
-		for(int i = 0 ; i<list.영화회원목록.size(); i++) {
-									//리스트내 객체 수
-			if(list.영화회원목록.get(i).equals(id)) {
-							// i번째의 아이디가 현재위에입력된 아이디와 동일하면
-				System.out.println("------>현재 사용중인 아이디입니다.");
-				스위치 = 1 ;
-				break;
-			}
-		}
-		if(스위치 == 0) {
-			System.out.println("Password를 입력하세요 : "); String password	 = 예매프로그램.scanner.next();
-			System.out.println("이름을 입력하세요 : "); String name	 = 예매프로그램.scanner.next();
-			
-			회원 temp = new 회원(id, password, name );
-			list.영화회원목록.add(temp);
-			System.out.println("-------> 회원가입 성공");
-			return;
-		}
-	}
-	
+	public void ȸ������() {
 		
 		
 	while( true ) {
@@ -112,7 +74,7 @@ public class 회원 implements 키오스크 {
 		
 	}
 	@Override
-	public void 비회원예매() {
+	public void ��ȸ������() {
 	}
 
 	
@@ -153,4 +115,3 @@ public class 회원 implements 키오스크 {
 	
 	
 }	// class end
-
