@@ -1,29 +1,31 @@
 package domain;
 
-public class CGV extends ¿µÈ­°ü {
-	int °íÀ¯¹øÈ£ = 02;
-	int ±İ¾×;
+import controller.ì˜ˆë§¤í”„ë¡œê·¸ë¨;
+
+public class CGV extends ê·¹ì¥ {
+	int ê³ ìœ ë²ˆí˜¸ = 02;
+	int ê¸ˆì•¡;
 
 	public CGV() {
 	}
 
 	@Override
-	public void ¸Ş´º() {
+	public void ë©”ë‰´() {
 		while (true) {
-			System.out.println("CGV ¸Ş´º");
-			System.out.println("1.·Î±×ÀÎ 2.È¸¿ø°¡ÀÔ 3. ¿¹¸Å 4. Á¾·á");
-			int ¼±ÅÃ = sc.nextInt();
-			if (¼±ÅÃ == 1) {
-				·Î±×ÀÎ();
+			System.out.println("CGV ë©”ë‰´");
+			System.out.println("1.ë¡œê·¸ì¸ 2.íšŒì›ê°€ì… 3. ì˜ˆë§¤ 4. ì¢…ë£Œ");
+			int ì„ íƒ = ì˜ˆë§¤í”„ë¡œê·¸ë¨.scanner.nextInt();
+			if (ì„ íƒ == 1) {
+				ë¡œê·¸ì¸();
 			}
-			if (¼±ÅÃ == 2) {
-				È¸¿ø°¡ÀÔ();
+			if (ì„ íƒ == 2) {
+				íšŒì›ê°€ì…();
 			}
-			if (¼±ÅÃ == 3) {
-				ºñÈ¸¿ø¿¹¸Å();
+			if (ì„ íƒ == 3) {
+				ë¹„íšŒì›ì˜ˆë§¤();
 			}
-			if (¼±ÅÃ == 4) {
-				Á¾·á();
+			if (ì„ íƒ == 4) {
+				ì¢…ë£Œ();
 				break;
 			}
 		}
@@ -31,27 +33,32 @@ public class CGV extends ¿µÈ­°ü {
 	}
 
 	@Override
-	public void ºñÈ¸¿ø¿¹¸Å() {
-		
-		super.ºñÈ¸¿ø¿¹¸Å();
+	public void ë¹„íšŒì›ì˜ˆë§¤() {
+
+		super.ë¹„íšŒì›ì˜ˆë§¤();
 	}
 
 	@Override
-	public void ·Î±×ÀÎ() {
-	
-		super.·Î±×ÀÎ();
+	public void ë¡œê·¸ì¸() {
+
+		super.ë¡œê·¸ì¸();
 	}
 
 	@Override
-	public void È¸¿ø°¡ÀÔ() {
-	
-		super.È¸¿ø°¡ÀÔ();
+	public void íšŒì›ê°€ì…() {
+
+		super.íšŒì›ê°€ì…();
 	}
 
 	@Override
-	public void Á¾·á() {
-	
-		super.Á¾·á();
+	public void ì˜ˆë§¤() {
+
+	}
+
+	@Override
+	public void ì¢…ë£Œ() {
+
+		super.ì¢…ë£Œ();
 	}
 
 }
