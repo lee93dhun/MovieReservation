@@ -30,7 +30,7 @@ public class 극장 extends 회원 implements 키오스크 {
 			if (선택 == 3) 비회원예매();
 			if (선택 == 4) return;
 		}
-	}
+	}  
 	@Override
 	public void 로그인() {
 		

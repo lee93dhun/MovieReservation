@@ -33,7 +33,8 @@ public class 메가박스 extends 극장 {
 		System.out.println("==========메가박스 회원가입==========");
 		회원.회원가입();
 	}
-
+ 
+	
 	@Override
 	public void 종료() {
 
