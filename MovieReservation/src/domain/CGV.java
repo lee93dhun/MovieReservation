@@ -13,23 +13,8 @@ public class CGV extends 극장 {
 	public void 메뉴() {
 		while (true) {
 			System.out.println("CGV 메뉴");
-			System.out.println("1.로그인 2.회원가입 3. 예매 4. 종료");
-			int 선택 = 예매프로그램.scanner.nextInt();
-			if (선택 == 1) {
-				로그인();
-			}
-			if (선택 == 2) {
-				회원가입();
-			}
-			if (선택 == 3) {
-				비회원예매();
-			}
-			if (선택 == 4) {
-				종료();
-				break;
-			}
+			super.메뉴();
 		}
-
 	}
 
 	@Override
@@ -48,11 +33,6 @@ public class CGV extends 극장 {
 	public void 회원가입() {
 
 		super.회원가입();
-	}
-
-	@Override
-	public void 예매() {
-
 	}
 
 	@Override
