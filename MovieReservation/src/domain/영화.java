@@ -1,11 +1,4 @@
-package domain;
-
-import java.util.ArrayList;
-
-
 public class 영화 {
-
-	public static ArrayList<영화> 영화목록 = new ArrayList<>();
 	String 제목;
 	String 장르;
 	int 영화번호;
@@ -28,7 +21,7 @@ public class 영화 {
 		금액 = 7000;
 		
 		영화 temp = new 영화(제목, 영화번호, 금액);
-		영화.영화목록.add(temp);
+		list.영화목록.add(temp);
 		
 		
 	}
@@ -37,7 +30,7 @@ public class 영화 {
 		영화번호 = 22;
 		금액 = 8000;
 		영화 temp = new 영화(제목, 영화번호, 금액);
-		영화.영화목록.add(temp);
+		list.영화목록.add(temp);
 		
 	}
 	public void 영화3() {
@@ -45,7 +38,7 @@ public class 영화 {
 		영화번호 = 33;
 		금액 = 9000;
 		영화 temp = new 영화(제목, 영화번호, 금액);
-		영화.영화목록.add(temp);
+		list.영화목록.add(temp);
 
 	}
 
