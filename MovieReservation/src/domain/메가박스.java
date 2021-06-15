@@ -1,6 +1,5 @@
 package domain;
 
-import controller.예매프로그램;
 
 public class 메가박스 extends 극장 {
 
