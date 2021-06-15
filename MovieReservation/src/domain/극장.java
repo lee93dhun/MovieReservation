@@ -1,48 +1,77 @@
 package domain;
 
-import controller.¿¹¸ÅÇÁ·Î±×·¥;
+import controller.ì˜ˆë§¤í”„ë¡œê·¸ë¨;
 
-public class ±ØÀå extends È¸¿ø implements Å°¿À½ºÅ© {
-	
-	// ÇÊµå
-	String ¾ÆÀÌµğ;
-	String ºñ¹Ğ¹øÈ£;
-	String ÀÌ¸§;
-	
-	// ºó »ı¼ºÀÚ
-	public ±ØÀå() {}
-	// ¸ğµç ÇÊµå »ı¼ºÀÚ
+public class ê·¹ì¥ implements í‚¤ì˜¤ìŠ¤í¬ {
 
-	public ±ØÀå(String ¾ÆÀÌµğ, String ºñ¹Ğ¹øÈ£, String ÀÌ¸§) {
+	// í•„ë“œ
+	String ì•„ì´ë””;
+	String ë¹„ë°€ë²ˆí˜¸;
+	String ì´ë¦„;
+	int ê¸ˆì•¡;
+
+	// ë¹ˆ ìƒì„±ì
+	public ê·¹ì¥() {
+	}
+	// ëª¨ë“  í•„ë“œ ìƒì„±ì
+
+	public ê·¹ì¥(String ì•„ì´ë””, String ë¹„ë°€ë²ˆí˜¸, String ì´ë¦„, int ê¸ˆì•¡) {
 		super();
-		this.¾ÆÀÌµğ = ¾ÆÀÌµğ;
-		this.ºñ¹Ğ¹øÈ£ = ºñ¹Ğ¹øÈ£;
-		this.ÀÌ¸§ = ÀÌ¸§;
+		this.ì•„ì´ë”” = ì•„ì´ë””;
+		this.ë¹„ë°€ë²ˆí˜¸ = ë¹„ë°€ë²ˆí˜¸;
+		this.ì´ë¦„ = ì´ë¦„;
+		this.ê¸ˆì•¡ = ê¸ˆì•¡;
 	}
 
 	@Override
-	public void ¸Ş´º() {
+	public void ë©”ë‰´() {
+
 		while (true) {
-			System.out.println("1.·Î±×ÀÎ 2.È¸¿ø°¡ÀÔ 3.¿¹¸Å 4.Á¾·á");
-			int ¼±ÅÃ = ¿¹¸ÅÇÁ·Î±×·¥.scanner.nextInt();
-			if (¼±ÅÃ == 1) ·Î±×ÀÎ();
-			if (¼±ÅÃ == 2) È¸¿ø°¡ÀÔ();
-			if (¼±ÅÃ == 3) ºñÈ¸¿ø¿¹¸Å();
-			if (¼±ÅÃ == 4) return;
+
+			System.out.println("1.ë¡œê·¸ì¸ 2.íšŒì›ê°€ì…  3.ë¹„íšŒì›ì˜ˆë§¤ 4.ì¢…ë£Œ");
+			int ì„ íƒ = ì˜ˆë§¤í”„ë¡œê·¸ë¨.scanner.nextInt();
+			if (ì„ íƒ == 1) {
+				ë¡œê·¸ì¸();
+			}
+			if (ì„ íƒ == 2) {
+				íšŒì›ê°€ì…();
+			}
+
+			if (ì„ íƒ == 3) {
+				ë¹„íšŒì›ì˜ˆë§¤();
+			}
+			if (ì„ íƒ == 4) {
+				return;
+			}
 		}
-	}  
+
+	}
+
 	@Override
-	public void ·Î±×ÀÎ() {
+	public void ë¡œê·¸ì¸() {
+
+	}
+
+	@Override
+	public void íšŒì›ê°€ì…() {
+
+	}
+
+	@Override
+	public void ë¹„íšŒì›ì˜ˆë§¤() {
+
+	}
+
+	@Override
+	public void ì˜ˆë§¤() {
+		System.out.println("ì˜í™” ì„ íƒ");
+		System.out.println("1.ì˜í™”1, 2.ì˜í™”2 3.ì˜í™”3");
+		int ì„ íƒ = ì˜ˆë§¤í”„ë¡œê·¸ë¨.scanner.nextInt();
+		if(ì„ íƒ == 1) {}
+		if(ì„ íƒ == 2) {}
+		if(ì„ íƒ == 3) {}
+		
 		
 	}
-	@Override
-	public void È¸¿ø°¡ÀÔ() {
-		
-	}
-	@Override
-	public void ºñÈ¸¿ø¿¹¸Å() {
-		
-	}
-	
 
 }
