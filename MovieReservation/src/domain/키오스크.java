@@ -1,18 +1,20 @@
 package domain;
 
-public interface Å°¿À½ºÅ© {
+public interface í‚¤ì˜¤ìŠ¤í¬ {
 
-	public void ¸Ş´º();
+	public void ë©”ë‰´();
 
-	public void ºñÈ¸¿ø¿¹¸Å();
+	public void ë¹„íšŒì›ì˜ˆë§¤();
 
-	public void ·Î±×ÀÎ();
+	public void ë¡œê·¸ì¸();
 
-	public void È¸¿ø°¡ÀÔ();
+	public void íšŒì›ê°€ì…();
+	
+	public void ì˜ˆë§¤();
 
-	public default void Á¾·á() {
+	public default void ì¢…ë£Œ() {
 
-		System.out.println("¿¹¸Å Á¾·á");
+		System.out.println("ì˜ˆë§¤ ì¢…ë£Œ");
 	}
 
 }
