@@ -1,65 +1,44 @@
 package domain;
 
-import controller.¿¹¸ÅÇÁ·Î±×·¥;
 
-public class ¸Ş°¡¹Ú½º extends ±ØÀå {
+public class ë©”ê°€ë°•ìŠ¤ extends ê·¹ì¥ {
 
-	int °íÀ¯¹øÈ£ = 01;
-	int ±İ¾×;
-	È¸¿ø È¸¿ø = new È¸¿ø();
+	int ê³ ìœ ë²ˆí˜¸ = 01;
+	int ê¸ˆì•¡;
+	íšŒì› íšŒì› = new íšŒì›();
 	
-	public ¸Ş°¡¹Ú½º() { }
-	public ¸Ş°¡¹Ú½º(String id, String password, String name) {
+	public ë©”ê°€ë°•ìŠ¤() { }
+	public ë©”ê°€ë°•ìŠ¤(String id, String password, String name) {
 	}
 
 	@Override
-	public void ¸Ş´º() {
-		super.¸Ş´º();
+	public void ë©”ë‰´() {
+		super.ë©”ë‰´();
 	}
 
 	@Override
-	public void ºñÈ¸¿ø¿¹¸Å() {
+	public void ë¹„íšŒì›ì˜ˆë§¤() {
 			
 		}
 
 	@Override
-	public void ·Î±×ÀÎ() {
-		System.out.println("===========¸Ş°¡¹Ú½º ·Î±×ÀÎ===========");
-//		È¸¿ø.·Î±×ÀÎ();
-	}
-
-	@Override
-	public void È¸¿ø°¡ÀÔ() {
-		System.out.println("==========¸Ş°¡¹Ú½º È¸¿ø°¡ÀÔ==========");
-		int ½ºÀ§Ä¡ =0 ;
-		System.out.println("ID¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");String id	 = ¿¹¸ÅÇÁ·Î±×·¥.scanner.next();
-	while( true ) {
-		for(int i = 0 ; i<list.¸Ş°¡¹Ú½ºÈ¸¿ø¸ñ·Ï.size(); i++) {
-									//¸®½ºÆ®³» °´Ã¼ ¼ö
-			if(list.¸Ş°¡¹Ú½ºÈ¸¿ø¸ñ·Ï.get(i).equals(id)) {
-							// i¹øÂ°ÀÇ ¾ÆÀÌµğ°¡ ÇöÀçÀ§¿¡ÀÔ·ÂµÈ ¾ÆÀÌµğ¿Í µ¿ÀÏÇÏ¸é
-				System.out.println("------>ÇöÀç »ç¿ëÁßÀÎ ¾ÆÀÌµğÀÔ´Ï´Ù.");
-				½ºÀ§Ä¡ = 1 ;
-				break;
-			}
-		}
-		if(½ºÀ§Ä¡ == 0) {
-			System.out.println("Password¸¦ ÀÔ·ÂÇÏ¼¼¿ä : "); String password	 = ¿¹¸ÅÇÁ·Î±×·¥.scanner.next();
-			System.out.println("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : "); String name	 = ¿¹¸ÅÇÁ·Î±×·¥.scanner.next();
-			
-			¸Ş°¡¹Ú½º temp = new ¸Ş°¡¹Ú½º(id, password, name );
-			list.¸Ş°¡¹Ú½ºÈ¸¿ø¸ñ·Ï.add(temp);
-			System.out.println("-------> È¸¿ø°¡ÀÔ ¼º°ø");
-			return;
-		}
-	}
+	public void ë¡œê·¸ì¸() {
+		System.out.println("===========ë©”ê°€ë°•ìŠ¤ ë¡œê·¸ì¸===========");
+		íšŒì›.ë¡œê·¸ì¸();
 		
 	}
 
 	@Override
-	public void Á¾·á() {
+	public void íšŒì›ê°€ì…() {
+		System.out.println("==========ë©”ê°€ë°•ìŠ¤ íšŒì›ê°€ì…==========");
+		íšŒì›.íšŒì›ê°€ì…();
+	}
+ 
+	
+	@Override
+	public void ì¢…ë£Œ() {
 
-		super.Á¾·á();
+		super.ì¢…ë£Œ();
 	}
 
 }
