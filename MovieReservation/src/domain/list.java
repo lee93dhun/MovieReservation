@@ -7,6 +7,6 @@ public class list {
 		// TODO Auto-generated constructor stub
 	}
 	public static ArrayList<회원>영화회원목록 = new ArrayList<>();
-
+	public static ArrayList<영화> 영화목록 = new ArrayList<>();
 }
 
