@@ -1,52 +1,60 @@
 package domain;
 
-public class ·Ôµ¥½Ã³×¸¶ extends ¿µÈ­°ü {
-	int °íÀ¯¹øÈ£ = 03;
-	int ±İ¾×;
+import java.util.Scanner;
+
+import controller.ì˜ˆë§¤í”„ë¡œê·¸ë¨;
+
+public class ë¡¯ë°ì‹œë„¤ë§ˆ extends ê·¹ì¥ {
+	int ê³ ìœ ë²ˆí˜¸ = 03;
+	int ê¸ˆì•¡;
 
 	@Override
-	public void ¸Ş´º() {
+	public void ë©”ë‰´() {
 		while (true) {
-			System.out.println("·Ôµ¥½Ã³×¸¶ ¸Ş´º");
-			System.out.println("1.·Î±×ÀÎ 2.È¸¿ø°¡ÀÔ 3. ¿¹¸Å 4. Á¾·á");
-			int ¼±ÅÃ = sc.nextInt();
-			if (¼±ÅÃ == 1) {
+			System.out.println("ë¡¯ë°ì‹œë„¤ë§ˆ ë©”ë‰´");
+			System.out.println("1.ë¡œê·¸ì¸ 2.íšŒì›ê°€ì… 3. ì˜ˆë§¤ 4. ì¢…ë£Œ");
+			int ì„ íƒ = ì˜ˆë§¤í”„ë¡œê·¸ë¨.scanner.nextInt();
+			if (ì„ íƒ == 1) {
 				
 			}
-			if (¼±ÅÃ == 2) {
-				È¸¿ø°¡ÀÔ();
+			if (ì„ íƒ == 2) {
+				íšŒì›ê°€ì…();
 			}
-			if (¼±ÅÃ == 3) {
-				ºñÈ¸¿ø¿¹¸Å();
+			if (ì„ íƒ == 3) {
+				ë¹„íšŒì›ì˜ˆë§¤();
 			}
 			
-			if (¼±ÅÃ == 4) {
-				Á¾·á();
+			if (ì„ íƒ == 4) {
+				ì¢…ë£Œ();
 				break;
 			}
 		}
 	}
 
 	@Override
-	public void ºñÈ¸¿ø¿¹¸Å() {
-		super.ºñÈ¸¿ø¿¹¸Å();
+	public void ë¹„íšŒì›ì˜ˆë§¤() {
+		super.ë¹„íšŒì›ì˜ˆë§¤();
 	}
 
 	@Override
-	public void ·Î±×ÀÎ() {
+	public void ë¡œê·¸ì¸() {
 
-		super.·Î±×ÀÎ();
+		super.ë¡œê·¸ì¸();
+	}
+	@Override
+	public void ì˜ˆë§¤() {
+	
+		super.ì˜ˆë§¤();
 	}
 
 	@Override
-	public void È¸¿ø°¡ÀÔ() {
+	public void íšŒì›ê°€ì…() {
 
-		super.È¸¿ø°¡ÀÔ();
+		super.íšŒì›ê°€ì…();
 	}
 
 	@Override
-	public void Á¾·á() {
-		super.Á¾·á();
+	public void ì¢…ë£Œ() {
+		super.ì¢…ë£Œ();
 	}
-
 }
