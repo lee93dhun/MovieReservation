@@ -41,3 +41,12 @@ public class CGV extends 극장 {
 	}
 
 }
+
+
+	@Override
+	public void 종료() {
+
+		super.종료();
+	}
+
+}
