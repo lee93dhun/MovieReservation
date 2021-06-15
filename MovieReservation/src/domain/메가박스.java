@@ -1,27 +1,28 @@
 package domain;
 
 
-public class ¸Ş°¡¹Ú½º extends ±ØÀå {
+public class ë©”ê°€ë°•ìŠ¤ extends ê·¹ì¥ {
 
-	int °íÀ¯¹øÈ£ = 01;
-	int ±İ¾×;
-	È¸¿ø È¸¿ø = new È¸¿ø();
+	int ê³ ìœ ë²ˆí˜¸ = 01;
+	int ê¸ˆì•¡;
+	íšŒì› íšŒì› = new íšŒì›();
 	
-	public ¸Ş°¡¹Ú½º() { }
-	public ¸Ş°¡¹Ú½º(String id, String password, String name) {
+	public ë©”ê°€ë°•ìŠ¤() { }
+	public ë©”ê°€ë°•ìŠ¤(String id, String password, String name) {
 	}
 
 	@Override
-	public void ¸Ş´º() {
-		super.¸Ş´º();
+	public void ë©”ë‰´() {
+		super.ë©”ë‰´();
 	}
 
 	@Override
-	public void ºñÈ¸¿ø¿¹¸Å() {
+	public void ë¹„íšŒì›ì˜ˆë§¤() {
 			
 		}
 
 	@Override
+<<<<<<< HEAD
 	public void ·Î±×ÀÎ() {
 		System.out.println("===========¸Ş°¡¹Ú½º ·Î±×ÀÎ===========");
 		È¸¿ø.·Î±×ÀÎ();
@@ -35,10 +36,25 @@ public class ¸Ş°¡¹Ú½º extends ±ØÀå {
 	}
  
 	
-	@Override
-	public void Á¾·á() {
+=======
+	public void ë¡œê·¸ì¸() {
+		System.out.println("===========ë©”ê°€ë°•ìŠ¤ ë¡œê·¸ì¸===========");
+		íšŒì›.ë¡œê·¸ì¸();
+		
+	}
 
-		super.Á¾·á();
+>>>>>>> refs/remotes/origin/master
+	@Override
+	public void íšŒì›ê°€ì…() {
+		System.out.println("==========ë©”ê°€ë°•ìŠ¤ íšŒì›ê°€ì…==========");
+		íšŒì›.íšŒì›ê°€ì…();
+	}
+ 
+	
+	@Override
+	public void ì¢…ë£Œ() {
+
+		super.ì¢…ë£Œ();
 	}
 
 }
