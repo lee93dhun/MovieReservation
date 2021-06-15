@@ -6,8 +6,7 @@ public class list {
 	public list(String id, String password, String name) {
 		// TODO Auto-generated constructor stub
 	}
-	public static ArrayList<¸Ş°¡¹Ú½º>¸Ş°¡¹Ú½ºÈ¸¿ø¸ñ·Ï = new ArrayList<>();
-	public static ArrayList<CGV>CGVÈ¸¿ø¸ñ·Ï = new ArrayList<>();
-	public static ArrayList<·Ôµ¥½Ã³×¸¶>·Ôµ¥½Ã³×¸¶È¸¿ø¸ñ·Ï = new ArrayList<>();
+	public static ArrayList<íšŒì›>ì˜í™”íšŒì›ëª©ë¡ = new ArrayList<>();
 
 }
+
