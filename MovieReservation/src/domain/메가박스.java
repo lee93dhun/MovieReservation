@@ -1,8 +1,9 @@
 package domain;
 
+import controller.예매프로그램;
 
 public class 메가박스 extends 극장 {
-
+	String id, password, name;
 	int 고유번호 = 01;
 	int 금액;
 	회원 회원 = new 회원();
@@ -10,11 +11,14 @@ public class 메가박스 extends 극장 {
 	public 메가박스() {
 	}
 
-	public 메가박스(String id, String password, String name) {
+	public 메가박스(String id, String password, String name, int 금액, int 고유번호) {
+		super(id, password, name, 금액);
+		this.고유번호 = 고유번호;
 	}
 
 	@Override
 	public void 메뉴() {
+		System.out.println("메가박스 메뉴");
 		super.메뉴();
 	}
 
