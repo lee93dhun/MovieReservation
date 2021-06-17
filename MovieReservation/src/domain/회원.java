@@ -3,6 +3,7 @@ package domain;
 import controller.예매프로그램;
 
 public class 회원 implements 키오스크 {
+	예매 예매 = new 예매();
 
 	private String id;
 	private String password;
@@ -39,11 +40,13 @@ public class 회원 implements 키오스크 {
 				int 선택 = 예매프로그램.scanner.nextInt();
 				if (선택 == 1) {
 
+					예매.회원예매();
 				}
 				if (선택 == 2) {
-
+					예매.예매취소();
 				}
 				if (선택 == 3) {
+					break;
 				}
 			} else {
 				System.out.println("입력하신 정보가 일치하지 않습니다.");
@@ -67,6 +70,7 @@ public class 회원 implements 키오스크 {
 					// i번째의 아이디가 현재위에입력된 아이디와 동일하면
 					System.out.println("------>현재 사용중인 아이디입니다.");
 					스위치 = 1;
+					
 					break;
 				}
 
@@ -91,11 +95,14 @@ public class 회원 implements 키오스크 {
 	@Override
 	public void 비회원예매() {
 	}
-	
+
 	@Override
 	public void 예매() {
-		
-		
+
+	}
+
+	public void 예메최소() {
+
 	}
 
 	public String getId() {
